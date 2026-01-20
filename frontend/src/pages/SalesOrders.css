@@ -1,0 +1,21 @@
+.so-table-box {
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.table-scroll {
+  max-height: 300px;
+  overflow-y: auto;
+}
+
+.table-scroll table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.table-scroll th,
+.table-scroll td {
+  padding: 10px;
+  border-bottom: 1px solid #e5e7eb;
+}

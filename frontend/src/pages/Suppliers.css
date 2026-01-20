@@ -1,0 +1,93 @@
+/* PAGE CONTAINER */
+.so-page {
+  padding: 20px;
+  background-color: #f5f7fa;
+  min-height: 100vh;
+  color: #222; /* 🔥 FORCE TEXT VISIBILITY */
+}
+
+/* PAGE TITLE */
+.so-page h1 {
+  font-size: 26px;
+  font-weight: 600;
+  margin-bottom: 20px;
+  color: #1f2937; /* DARK TEXT */
+}
+
+/* FORM */
+.so-form {
+  background: #ffffff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+  margin-bottom: 30px;
+}
+
+/* SELECT & INPUT */
+.so-form select,
+.so-form input {
+  padding: 8px 10px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border: 1px solid #d1d5db;
+  color: #111; /* 🔥 TEXT FIX */
+  background-color: #fff;
+}
+
+/* ITEM ROW */
+.so-item {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+/* BUTTONS */
+.so-form button {
+  padding: 8px 14px;
+  border-radius: 5px;
+  border: none;
+  background-color: #2563eb;
+  color: white;
+  cursor: pointer;
+}
+
+.so-form button:hover {
+  background-color: #1d4ed8;
+}
+
+/* TABLE CONTAINER */
+.so-table-box {
+  background: #ffffff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+/* TABLE TITLE */
+.so-table-box h3 {
+  margin-bottom: 10px;
+  color: #1f2937;
+}
+
+/* TABLE */
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+/* HEADERS */
+thead th {
+  background-color: #f3f4f6;
+  padding: 10px;
+  text-align: left;
+  color: #111827;
+  font-weight: 600;
+}
+
+/* ROWS */
+tbody td {
+  padding: 10px;
+  border-top: 1px solid #e5e7eb;
+  color: #111; /* 🔥 FIX */
+}

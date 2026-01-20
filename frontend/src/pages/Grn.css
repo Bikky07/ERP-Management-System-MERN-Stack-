@@ -1,0 +1,57 @@
+.grn-page {
+  padding: 20px;
+  color: #111;
+}
+
+.grn-card {
+  background: #fff;
+  padding: 20px;
+  border-radius: 14px;
+  max-width: 600px;
+  box-shadow: 0 6px 16px rgba(0,0,0,0.08);
+}
+
+.grn-card label {
+  font-weight: 600;
+  display: block;
+  margin-bottom: 6px;
+}
+
+.grn-card select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  border: 1px solid #d1d5db;
+}
+
+.grn-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #f9fafb;
+  padding: 10px;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.grn-item span {
+  font-weight: 500;
+}
+
+.grn-item input {
+  width: 80px;
+  padding: 6px;
+  border-radius: 6px;
+  border: 1px solid #d1d5db;
+}
+
+.grn-card button {
+  margin-top: 15px;
+  padding: 10px 15px;
+  background: #2563eb;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}

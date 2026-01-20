@@ -1,0 +1,19 @@
+.dashboard-layout {
+  display: flex;
+  min-height: 100vh;
+  background-color: #121212;
+}
+
+.dashboard-main {
+  margin-left: 240px; /* sidebar width */
+  width: calc(100% - 240px);
+  display: flex;
+  flex-direction: column;
+}
+
+.dashboard-content {
+  margin-top: 64px; /* topbar height */
+  padding: 24px;
+  background-color: #1e1e1e;
+  min-height: calc(100vh - 64px);
+}

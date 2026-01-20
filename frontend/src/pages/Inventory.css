@@ -1,0 +1,37 @@
+.inventory-page {
+  padding: 20px;
+}
+
+.inventory-card {
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  overflow-x: auto;
+}
+
+.inventory-card table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.inventory-card th,
+.inventory-card td {
+  padding: 12px;
+  border-bottom: 1px solid #e5e7eb;
+  text-align: left;
+}
+
+.in {
+  color: green;
+  font-weight: 500;
+}
+
+.low {
+  color: orange;
+  font-weight: 500;
+}
+
+.out {
+  color: red;
+  font-weight: 500;
+}
